@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F452139F259F5F6400035CEC /* DayCountApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F452139E259F5F6400035CEC /* DayCountApp.swift */; };
+		F45213A1259F5F6400035CEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45213A0259F5F6400035CEC /* ContentView.swift */; };
+		F45213A3259F5F6600035CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45213A2259F5F6600035CEC /* Assets.xcassets */; };
+		F45213A6259F5F6600035CEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45213A5259F5F6600035CEC /* Preview Assets.xcassets */; };
+		F45213AF259F5F7E00035CEC /* DayCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45213AE259F5F7E00035CEC /* DayCountView.swift */; };
+		F45213B3259F604700035CEC /* DayCountDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45213B2259F604700035CEC /* DayCountDetail.swift */; };
+		F45213D125A0DB8A00035CEC /* SF Pro Rounded Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F45213D025A0DB8A00035CEC /* SF Pro Rounded Bold.ttf */; };
+		F45213D525A0DE0100035CEC /* Courgette Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F45213D425A0DE0100035CEC /* Courgette Regular.ttf */; };
+		F452140125A10FFB00035CEC /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F452140025A10FFB00035CEC /* WidgetKit.framework */; };
+		F452140325A10FFB00035CEC /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F452140225A10FFB00035CEC /* SwiftUI.framework */; };
+		F452140625A10FFB00035CEC /* DayCountWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F452140525A10FFB00035CEC /* DayCountWidget.swift */; };
+		F452140925A1100000035CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F452140825A1100000035CEC /* Assets.xcassets */; };
+		F452140B25A1100000035CEC /* DayCountWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = F452140725A10FFB00035CEC /* DayCountWidget.intentdefinition */; };
+		F452140C25A1100000035CEC /* DayCountWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = F452140725A10FFB00035CEC /* DayCountWidget.intentdefinition */; };
+		F452140F25A1100000035CEC /* DayCountWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F45213FE25A10FFB00035CEC /* DayCountWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F452141625A1102800035CEC /* DayCountDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45213B2259F604700035CEC /* DayCountDetail.swift */; };
+		F452141725A1102800035CEC /* DayCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45213AE259F5F7E00035CEC /* DayCountView.swift */; };
+		F452142025A118A900035CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45213A2259F5F6600035CEC /* Assets.xcassets */; };
+		F452142525A11AF900035CEC /* Courgette Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F45213D425A0DE0100035CEC /* Courgette Regular.ttf */; };
+		F452142825A11AFC00035CEC /* SF Pro Rounded Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F45213D025A0DB8A00035CEC /* SF Pro Rounded Bold.ttf */; };
+		F452143125A1285300035CEC /* BatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F452143025A1285300035CEC /* BatteryView.swift */; };
+		F452143825A1342800035CEC /* BatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F452143025A1285300035CEC /* BatteryView.swift */; };
+		F452143C25A138E500035CEC /* MediumDayCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F452143B25A138E500035CEC /* MediumDayCountView.swift */; };
+		F452143D25A138E500035CEC /* MediumDayCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F452143B25A138E500035CEC /* MediumDayCountView.swift */; };
+		F452144525A1465800035CEC /* LargeDayCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F452144425A1465800035CEC /* LargeDayCountView.swift */; };
+		F452144625A1465800035CEC /* LargeDayCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F452144425A1465800035CEC /* LargeDayCountView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F452140D25A1100000035CEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4521393259F5F6400035CEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45213FD25A10FFB00035CEC;
+			remoteInfo = DayCountWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F452141025A1100000035CEC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F452140F25A1100000035CEC /* DayCountWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F452139B259F5F6400035CEC /* DayCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F452139E259F5F6400035CEC /* DayCountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCountApp.swift; sourceTree = "<group>"; };
+		F45213A0259F5F6400035CEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F45213A2259F5F6600035CEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F45213A5259F5F6600035CEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F45213A7259F5F6600035CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45213AE259F5F7E00035CEC /* DayCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCountView.swift; sourceTree = "<group>"; };
+		F45213B2259F604700035CEC /* DayCountDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCountDetail.swift; sourceTree = "<group>"; };
+		F45213D025A0DB8A00035CEC /* SF Pro Rounded Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Pro Rounded Bold.ttf"; sourceTree = "<group>"; };
+		F45213D425A0DE0100035CEC /* Courgette Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Courgette Regular.ttf"; sourceTree = "<group>"; };
+		F45213FE25A10FFB00035CEC /* DayCountWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DayCountWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F452140025A10FFB00035CEC /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		F452140225A10FFB00035CEC /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		F452140525A10FFB00035CEC /* DayCountWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCountWidget.swift; sourceTree = "<group>"; };
+		F452140725A10FFB00035CEC /* DayCountWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = DayCountWidget.intentdefinition; sourceTree = "<group>"; };
+		F452140825A1100000035CEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F452140A25A1100000035CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F452143025A1285300035CEC /* BatteryView.swift */ = {isa = PBXFileReference; indentWidth = 3; lastKnownFileType = sourcecode.swift; path = BatteryView.swift; sourceTree = "<group>"; tabWidth = 3; };
+		F452143B25A138E500035CEC /* MediumDayCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumDayCountView.swift; sourceTree = "<group>"; };
+		F452144425A1465800035CEC /* LargeDayCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeDayCountView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4521398259F5F6400035CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45213FB25A10FFB00035CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F452140325A10FFB00035CEC /* SwiftUI.framework in Frameworks */,
+				F452140125A10FFB00035CEC /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4521392259F5F6400035CEC = {
+			isa = PBXGroup;
+			children = (
+				F45213C025A0D08700035CEC /* Fonts */,
+				F452139D259F5F6400035CEC /* DayCount */,
+				F452140425A10FFB00035CEC /* DayCountWidget */,
+				F45213FF25A10FFB00035CEC /* Frameworks */,
+				F452139C259F5F6400035CEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F452139C259F5F6400035CEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F452139B259F5F6400035CEC /* DayCount.app */,
+				F45213FE25A10FFB00035CEC /* DayCountWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F452139D259F5F6400035CEC /* DayCount */ = {
+			isa = PBXGroup;
+			children = (
+				F452139E259F5F6400035CEC /* DayCountApp.swift */,
+				F45213A0259F5F6400035CEC /* ContentView.swift */,
+				F45213B5259F605500035CEC /* Data */,
+				F45213B1259F5F8A00035CEC /* Views */,
+				F45213A2259F5F6600035CEC /* Assets.xcassets */,
+				F45213A7259F5F6600035CEC /* Info.plist */,
+				F45213A4259F5F6600035CEC /* Preview Content */,
+			);
+			path = DayCount;
+			sourceTree = "<group>";
+		};
+		F45213A4259F5F6600035CEC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F45213A5259F5F6600035CEC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F45213B1259F5F8A00035CEC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F45213AE259F5F7E00035CEC /* DayCountView.swift */,
+				F452144425A1465800035CEC /* LargeDayCountView.swift */,
+				F452143B25A138E500035CEC /* MediumDayCountView.swift */,
+				F452143025A1285300035CEC /* BatteryView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F45213B5259F605500035CEC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F45213B2259F604700035CEC /* DayCountDetail.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		F45213C025A0D08700035CEC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F45213D425A0DE0100035CEC /* Courgette Regular.ttf */,
+				F45213D025A0DB8A00035CEC /* SF Pro Rounded Bold.ttf */,
+			);
+			name = Fonts;
+			path = DayCount;
+			sourceTree = "<group>";
+		};
+		F45213FF25A10FFB00035CEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F452140025A10FFB00035CEC /* WidgetKit.framework */,
+				F452140225A10FFB00035CEC /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F452140425A10FFB00035CEC /* DayCountWidget */ = {
+			isa = PBXGroup;
+			children = (
+				F452140525A10FFB00035CEC /* DayCountWidget.swift */,
+				F452140725A10FFB00035CEC /* DayCountWidget.intentdefinition */,
+				F452140825A1100000035CEC /* Assets.xcassets */,
+				F452140A25A1100000035CEC /* Info.plist */,
+			);
+			path = DayCountWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F452139A259F5F6400035CEC /* DayCount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45213AA259F5F6600035CEC /* Build configuration list for PBXNativeTarget "DayCount" */;
+			buildPhases = (
+				F4521397259F5F6400035CEC /* Sources */,
+				F4521398259F5F6400035CEC /* Frameworks */,
+				F4521399259F5F6400035CEC /* Resources */,
+				F452141025A1100000035CEC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F452140E25A1100000035CEC /* PBXTargetDependency */,
+			);
+			name = DayCount;
+			productName = DayCount;
+			productReference = F452139B259F5F6400035CEC /* DayCount.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F45213FD25A10FFB00035CEC /* DayCountWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F452141325A1100000035CEC /* Build configuration list for PBXNativeTarget "DayCountWidgetExtension" */;
+			buildPhases = (
+				F45213FA25A10FFB00035CEC /* Sources */,
+				F45213FB25A10FFB00035CEC /* Frameworks */,
+				F45213FC25A10FFB00035CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DayCountWidgetExtension;
+			productName = DayCountWidgetExtension;
+			productReference = F45213FE25A10FFB00035CEC /* DayCountWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4521393259F5F6400035CEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					F452139A259F5F6400035CEC = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					F45213FD25A10FFB00035CEC = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = F4521396259F5F6400035CEC /* Build configuration list for PBXProject "DayCount" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4521392259F5F6400035CEC;
+			productRefGroup = F452139C259F5F6400035CEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F452139A259F5F6400035CEC /* DayCount */,
+				F45213FD25A10FFB00035CEC /* DayCountWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4521399259F5F6400035CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45213A6259F5F6600035CEC /* Preview Assets.xcassets in Resources */,
+				F45213D525A0DE0100035CEC /* Courgette Regular.ttf in Resources */,
+				F45213A3259F5F6600035CEC /* Assets.xcassets in Resources */,
+				F45213D125A0DB8A00035CEC /* SF Pro Rounded Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45213FC25A10FFB00035CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F452142525A11AF900035CEC /* Courgette Regular.ttf in Resources */,
+				F452142025A118A900035CEC /* Assets.xcassets in Resources */,
+				F452140925A1100000035CEC /* Assets.xcassets in Resources */,
+				F452142825A11AFC00035CEC /* SF Pro Rounded Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4521397259F5F6400035CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F452143125A1285300035CEC /* BatteryView.swift in Sources */,
+				F45213A1259F5F6400035CEC /* ContentView.swift in Sources */,
+				F45213B3259F604700035CEC /* DayCountDetail.swift in Sources */,
+				F45213AF259F5F7E00035CEC /* DayCountView.swift in Sources */,
+				F452143C25A138E500035CEC /* MediumDayCountView.swift in Sources */,
+				F452140C25A1100000035CEC /* DayCountWidget.intentdefinition in Sources */,
+				F452139F259F5F6400035CEC /* DayCountApp.swift in Sources */,
+				F452144525A1465800035CEC /* LargeDayCountView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45213FA25A10FFB00035CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F452144625A1465800035CEC /* LargeDayCountView.swift in Sources */,
+				F452141625A1102800035CEC /* DayCountDetail.swift in Sources */,
+				F452143825A1342800035CEC /* BatteryView.swift in Sources */,
+				F452140625A10FFB00035CEC /* DayCountWidget.swift in Sources */,
+				F452140B25A1100000035CEC /* DayCountWidget.intentdefinition in Sources */,
+				F452143D25A138E500035CEC /* MediumDayCountView.swift in Sources */,
+				F452141725A1102800035CEC /* DayCountView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F452140E25A1100000035CEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45213FD25A10FFB00035CEC /* DayCountWidgetExtension */;
+			targetProxy = F452140D25A1100000035CEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F45213A8259F5F6600035CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F45213A9259F5F6600035CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F45213AB259F5F6600035CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DayCount/Preview Content\"";
+				DEVELOPMENT_TEAM = 649FAN542R;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DayCount/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = msaliuta.DayCount;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F45213AC259F5F6600035CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DayCount/Preview Content\"";
+				DEVELOPMENT_TEAM = 649FAN542R;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DayCount/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = msaliuta.DayCount;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F452141125A1100000035CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 649FAN542R;
+				INFOPLIST_FILE = DayCountWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = msaliuta.DayCount.DayCountWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F452141225A1100000035CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 649FAN542R;
+				INFOPLIST_FILE = DayCountWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = msaliuta.DayCount.DayCountWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4521396259F5F6400035CEC /* Build configuration list for PBXProject "DayCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45213A8259F5F6600035CEC /* Debug */,
+				F45213A9259F5F6600035CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45213AA259F5F6600035CEC /* Build configuration list for PBXNativeTarget "DayCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45213AB259F5F6600035CEC /* Debug */,
+				F45213AC259F5F6600035CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F452141325A1100000035CEC /* Build configuration list for PBXNativeTarget "DayCountWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F452141125A1100000035CEC /* Debug */,
+				F452141225A1100000035CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4521393259F5F6400035CEC /* Project object */;
+}
